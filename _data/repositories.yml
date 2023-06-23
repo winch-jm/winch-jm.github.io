@@ -1,12 +1,5 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - winch-jm
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - winch-jm/sc-temporal-smoothing
