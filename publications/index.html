@@ -126,7 +126,7 @@
   <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Preprint</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://www.biorxiv.org/" rel="external nofollow noopener" target="_blank">bioRxiv</a></abbr></div>
 
         <!-- Entry bib key -->
         <div id="winchell2023foca" class="col-sm-8">
@@ -136,11 +136,11 @@
         <div class="author">
         
 
-        <em>Jeff Winchell</em>, Gabriel Comolet, Dillion Hutson, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
+        <em>Jeff Winchell</em>, Gabriel Comolet, Geoff Buckley-Herd, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Daniel Paull, Bianca Migliori' : '2 more authors';
+                var more_authors_text = element.text() == '4 more authors' ? 'Dillion Hutson, Neeloy Bose, Daniel Paull, Bianca Migliori' : '4 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -148,7 +148,7 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">2 more authors</span>
+              ">4 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -163,14 +163,20 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.biorxiv.org/content/10.1101/2023.07.20.549929v1" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://github.com/NYSCF/foca_release" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-altmetric-id="true"></span>
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The increasing use of automation in cellular assays and cell culture presents significant opportunities to enhance the scale and throughput of imaging assays, but to do so, reliable data quality and consistency are critical. Realizing the full potential of automation will thus require the design of robust analysis pipelines that span the entire workflow in question. Here we present FocA, a deep learning tool that, in near real-time, identifies in-focus and out-of-focus images generated on a fully automated cell biology research platform, the NYSCF Global Stem Cell Array (Registered Trademark). The tool is trained on small patches of downsampled images to maximize computational efficiency without compromising accuracy, and optimized to make sure no sub-quality images are stored and used in downstream analyses. The tool automatically generates balanced and maximally diverse training sets to avoid bias. The resulting model correctly identifies 100% of out-of-focus and 98% of in-focus images in under 4 seconds per 96-well plate, and achieves this result even in heavily downsampled data ( 30 times smaller than native resolution). Integrating the tool into automated workflows minimizes the need for human verification as well as the collection and usage of low-quality data. FocA thus offers a solution to ensure reliable image data hygiene and improve the efficiency of automated imaging workflows using minimal computational resources.</p>
+          </div>
         </div>
       </div>
 </li></ol>
