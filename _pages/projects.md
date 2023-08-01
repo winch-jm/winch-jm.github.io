@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects from my time at NYSCF and Drexel
 nav: true
 nav_order: 2
 horizontal: false
