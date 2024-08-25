@@ -50,7 +50,7 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
     <header>
@@ -122,11 +122,58 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://www.biorxiv.org/" rel="external nofollow noopener" target="_blank">bioRxiv</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="winchell2024scalefex" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A Highly-Efficient, Scalable Pipeline for Fixed Feature Extraction from Large-Scale High-Content Imaging Screens</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Gabriel Comolet, Neeloy Bose, <em>Jeff Winchell</em>, Alyssa Duren-Lubanski, Tom Rusielewicz, Jordan Goldberg, Grayson Horn, <a href="https://scholar.google.com/citations?hl=en&amp;user=qSQ853QAAAAJ" rel="external nofollow noopener" target="_blank">Daniel Paull</a>, and <a href="https://scholar.google.com/citations?user=QtTO4v0AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Bianca Migliori</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>bioRxiv</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://doi.org/10.1101/2023.07.06.547985" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://github.com/NYSCF/ScaleFEx" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Leveraging artificial intelligence (AI) in image-based morphological profiling of cell populations is proving increasingly valuable for identifying diseased states and drug responses in high-content imaging (HCI) screens. When the differences between populations (such as a healthy and diseased) are completely unknown and undistinguishable by the human eye, it is crucial that HCI screens are large in scale, allowing numerous replicates for developing reliable models, as well as accounting for confounding factors such as individual (donor) and intra-experimental variation. However, as screen sizes increase, challenges arise including the lack of scalable solutions for analyzing high-dimensional datasets and processing the results in a timely manner. For this purpose, many tools have been developed to reduce images into a set of features using unbiased methods, such as embedding vectors extracted from pre-trained neural networks or autoencoders. While these methods preserve most of the predictive power contained in each image despite reducing the dimensionality significantly, they do not provide easily interpretable information. Alternatively, techniques to extract specific cellular features from data are typically slow, difficult to scale, and often produce redundant outputs, which can lead to the model learning from irrelevant data, which might distort future predictions. Here we present ScaleFEx℠, a memory efficient and scalable open-source Python pipeline that extracts biologically meaningful features from large high-content imaging datasets. It requires only modest computational resources but can also be deployed on high-powered cloud computing infrastructure. ScaleFEx℠ can be used in conjunction with AI models to cluster data and subsequently explore, identify, and rank features to provide insights into the morphological hallmarks of the phenotypic categories. We demonstrate the performance of this tool on a dataset consisting of control and drug-treated cells from a cohort of 20 donors, benchmarking it against the state-of-the-art tool, CellProfiler, and analyze the features underlying the phenotypic shift induced by chemical compounds. In addition, the tools generalizability and utility is shown in the analysis of publicly available datasets. Overall, ScaleFEx℠ constitutes a robust and compact pipeline for identifying the effects of drugs on morphological phenotypes and defining interpretable features that can be leveraged in disease profiling and drug discovery.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
   <h2 class="year">2023</h2>
   <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://slas-discovery.org/" rel="external nofollow noopener" target="_blank">SLAS Discovery</a></abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">SLAS Discov.</abbr></div>
 
         <!-- Entry bib key -->
         <div id="winchell2023foca" class="col-sm-8">
@@ -136,19 +183,7 @@
         <div class="author">
         
 
-        <em>Jeff Winchell</em>, Gabriel Comolet, Geoff Buckley-Herd, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Dillion Hutson, Neeloy Bose, Daniel Paull, Bianca Migliori' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
+        <em>Jeff Winchell</em>, Gabriel Comolet, Geoff Buckley-Herd, Dillion Hutson, Neeloy Bose, <a href="https://scholar.google.com/citations?hl=en&amp;user=qSQ853QAAAAJ" rel="external nofollow noopener" target="_blank">Daniel Paull</a>, and <a href="https://scholar.google.com/citations?user=QtTO4v0AAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Bianca Migliori</a>
 </div>
 
         <!-- Journal/Book title and date -->
@@ -181,6 +216,51 @@
       </div>
 </li></ol>
 
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://arxiv.org/" rel="external nofollow noopener" target="_blank">arXiv</a></abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="moyer2021funcprot" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Functional Protein Structure Annotation Using a Deep Convolutional Generative Adversarial Network</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Ethan Moyer, <em>Jeff Winchell</em>, Isamu Isozaki, Yigit Alparslan, Mali Halac, and Edward Kim</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/abs/2104.08969" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Identifying novel functional protein structures is at the heart of molecular engineering and molecular biology, requiring an often computationally exhaustive search. We introduce the use of a Deep Convolutional Generative Adversarial Network (DCGAN) to classify protein structures based on their functionality by encoding each sample in a grid object structure using three features in each object: the generic atom type, the position atom type, and its occupancy relative to a given atom. We train DCGAN on 3-dimensional (3D) decoy and native protein structures in order to generate and discriminate 3D protein structures. At the end of our training, loss converges to a local minimum and our DCGAN can annotate functional proteins robustly against adversarial protein samples. In the future we hope to extend the novel structures we found from the generator in our DCGAN with more samples to explore more granular functionality with varying functions. We hope that our effort will advance the field of protein structure prediction.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
 
 </div>
 
@@ -191,11 +271,9 @@
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        © Copyright 2023 Jeff  Winchell. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        © Copyright 2024 Jeff  Winchell. 
       </div>
     </footer>
 
@@ -239,7 +317,14 @@
   <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
   <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
     
 
 <!-- Scrolling Progress Bar -->
