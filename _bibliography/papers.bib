@@ -4,7 +4,7 @@
 @string{aps = {American Physical Society,}}
 
 @article{winchell2023foca,
-  abbr={SLAS Discovery},
+  abbr={SLAS Discov.},
   title={FocA: A deep learning tool for reliable, near-real-time imaging focus analysis in automated cell assay pipelines},
   author={Winchell, Jeff and Comolet, Gabriel and Buckley-Herd, Geoff and Hutson, Dillion and Bose, Neeloy and Paull, Daniel and Migliori, Bianca},
   abstract={The increasing use of automation in cellular assays and cell culture presents significant opportunities to enhance the scale and throughput of imaging assays, but to do so, reliable data quality and consistency are critical. Realizing the full potential of automation will thus require the design of robust analysis pipelines that span the entire workflow in question. Here we present FocA, a deep learning tool that, in near real-time, identifies in-focus and out-of-focus images generated on a fully automated cell biology research platform, the NYSCF Global Stem Cell Array (Registered Trademark). The tool is trained on small patches of downsampled images to maximize computational efficiency without compromising accuracy, and optimized to make sure no sub-quality images are stored and used in downstream analyses. The tool automatically generates balanced and maximally diverse training sets to avoid bias. The resulting model correctly identifies 100% of out-of-focus and 98% of in-focus images in under 4 seconds per 96-well plate, and achieves this result even in heavily downsampled data (~30 times smaller than native resolution). Integrating the tool into automated workflows minimizes the need for human verification as well as the collection and usage of low-quality data. FocA thus offers a solution to ensure reliable image data hygiene and improve the efficiency of automated imaging workflows using minimal computational resources.},
@@ -16,3 +16,23 @@
   publisher={Elsevier}
 }
 
+@article{winchell2024scalefex,
+  abbr={bioRxiv},
+  title={A Highly-Efficient, Scalable Pipeline for Fixed Feature Extraction from Large-Scale High-Content Imaging Screens},
+  author={Comolet, Gabriel and Bose, Neeloy and Winchell, Jeff and Duren-Lubanski, Alyssa and Rusielewicz, Tom and Goldberg, Jordan and Horn, Grayson and Paull, Daniel and Migliori, Bianca},
+  abstract={Leveraging artificial intelligence (AI) in image-based morphological profiling of cell populations is proving increasingly valuable for identifying diseased states and drug responses in high-content imaging (HCI) screens. When the differences between populations (such as a healthy and diseased) are completely unknown and undistinguishable by the human eye, it is crucial that HCI screens are large in scale, allowing numerous replicates for developing reliable models, as well as accounting for confounding factors such as individual (donor) and intra-experimental variation. However, as screen sizes increase, challenges arise including the lack of scalable solutions for analyzing high-dimensional datasets and processing the results in a timely manner. For this purpose, many tools have been developed to reduce images into a set of features using unbiased methods, such as embedding vectors extracted from pre-trained neural networks or autoencoders. While these methods preserve most of the predictive power contained in each image despite reducing the dimensionality significantly, they do not provide easily interpretable information. Alternatively, techniques to extract specific cellular features from data are typically slow, difficult to scale, and often produce redundant outputs, which can lead to the model learning from irrelevant data, which might distort future predictions. Here we present ScaleFEx℠, a memory efficient and scalable open-source Python pipeline that extracts biologically meaningful features from large high-content imaging datasets. It requires only modest computational resources but can also be deployed on high-powered cloud computing infrastructure. ScaleFEx℠ can be used in conjunction with AI models to cluster data and subsequently explore, identify, and rank features to provide insights into the morphological hallmarks of the phenotypic categories. We demonstrate the performance of this tool on a dataset consisting of control and drug-treated cells from a cohort of 20 donors, benchmarking it against the state-of-the-art tool, CellProfiler, and analyze the features underlying the phenotypic shift induced by chemical compounds. In addition, the tools generalizability and utility is shown in the analysis of publicly available datasets. Overall, ScaleFEx℠ constitutes a robust and compact pipeline for identifying the effects of drugs on morphological phenotypes and defining interpretable features that can be leveraged in disease profiling and drug discovery.},
+  year={2024},
+  html={https://doi.org/10.1101/2023.07.06.547985},
+  code={https://github.com/NYSCF/ScaleFEx},
+  journal={bioRxiv}
+}
+
+@article{moyer2021funcprot,
+  abbr={arXiv},
+  title={Functional Protein Structure Annotation Using a Deep Convolutional Generative Adversarial Network},
+  author={Moyer, Ethan and Winchell, Jeff and Isozaki, Isamu and Alparslan, Yigit and Halac, Mali and Kim, Edward},
+  abstract={Identifying novel functional protein structures is at the heart of molecular engineering and molecular biology, requiring an often computationally exhaustive search. We introduce the use of a Deep Convolutional Generative Adversarial Network (DCGAN) to classify protein structures based on their functionality by encoding each sample in a grid object structure using three features in each object: the generic atom type, the position atom type, and its occupancy relative to a given atom. We train DCGAN on 3-dimensional (3D) decoy and native protein structures in order to generate and discriminate 3D protein structures. At the end of our training, loss converges to a local minimum and our DCGAN can annotate functional proteins robustly against adversarial protein samples. In the future we hope to extend the novel structures we found from the generator in our DCGAN with more samples to explore more granular functionality with varying functions. We hope that our effort will advance the field of protein structure prediction.},
+  year={2021},
+  html={https://arxiv.org/abs/2104.08969},
+  journal={arXiv}
+}
