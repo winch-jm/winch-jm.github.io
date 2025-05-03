@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /vitae/
 title: vitae
 nav: true
 nav_order: 4
-cv_pdf: jeffwinchell_CV.pdf
+cv_pdf: website_cv.pdf
 ---

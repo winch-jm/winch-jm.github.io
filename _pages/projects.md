@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Projects from my time at NYSCF and Drexel
-nav: true
+nav: false
 nav_order: 2
 horizontal: false
 ---
