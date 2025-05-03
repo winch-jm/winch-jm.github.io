@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming grad student @ <a href='https://cbd.cmu.edu/'>CMU</a> <-- data science @ <a href='https://www.nyscf.org/research-institute/'>NYSCF</a> <-- math/cs @ <a href='https://drexel.edu/'>Drexel</a>
+subtitle: grad student @ <a href='https://cbd.cmu.edu/'>CMU</a> <-- data science @ <a href='https://www.nyscf.org/research-institute/'>NYSCF</a> <-- math/cs @ <a href='https://drexel.edu/'>Drexel</a>
 profile:
   align: right
   image: prof_pic.jpg

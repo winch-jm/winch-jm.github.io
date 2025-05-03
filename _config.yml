@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jeff
 middle_name: 
 last_name: Winchell
-email: jeffmwinchell@gmail.com
+email: 
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 # footer_text: >
@@ -105,7 +105,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  I am most responsive via email.
+  I am most responsive via email at jwinchel&lt;at&gt;andrew&lt;dot&gt;cmu&lt;dot&gt;edu.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
