@@ -8,15 +8,15 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Pittsburgh, PA 15213</p>
+    <p>Pittsburgh, PA 15217</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m an incoming master’s student in computational biology at [Carnegie Mellon University](https://cbd.cmu.edu/), with a background in machine learning, single-cell imaging, and biological data science. My research interests center around representation learning, interpretable models, and developing methods that help us understand complex biological systems at scale.
+I’m a master’s student in computational biology at [Carnegie Mellon University](https://cbd.cmu.edu/), with a background in machine learning, single-cell imaging, and biological data science. My research interests center around representation learning, interpretable models, and developing methods that help us understand complex biological systems at scale.
 
 At [NYSCF](https://nyscf.org/research-institute/), I worked on projects in bioimage analysis, high-content screening, and generative modeling, with a particular focus on making high-dimensional data more explainable and biologically meaningful. I'm especially drawn to problems that involve uncovering structured latent spaces, modeling cell state dynamics, and building tools that interface between ML and real-world biology.
 
