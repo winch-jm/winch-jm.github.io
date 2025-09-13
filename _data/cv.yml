@@ -12,16 +12,24 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Grad Student Researcher (Unpaid)
+      institution: Carnegie Mellon University
+      year: Sept 2025 - Present
+      description:
+        - "Advisors: Dr. Jian Ma, Dr. Spencer Krieger"
+        - "Focus: ML applied to spatial transcriptomics"
+
+
     - title: Associate Data Scientist
       institution: The New York Stem Cell Foundation Research Institute
-      year: 2021 - Present
+      year: 2021 - 2025
       description:
         - Designing computer-vision-based quality-checking tools for multi-terabyte, high-content imaging assays
         - Supporting research projects by analyzing data across domains (e.g., high-content imaging, calcium imaging videos, flow cytometry)
         - Applying post-hoc methods for explaining ML classification networks to investigate phenotypes of aging, neurodegenerative diseases
         - Mentoring college interns in expanding NYSCF's existing image analysis tools
       
-    - title: Machine Learning Research Assistant
+    - title: Student Researcher (Unpaid)
       institution: Drexel University
       year: 2020 - 2021
       description:
@@ -44,10 +52,14 @@
 - title: Education
   type: time_table
   contents:
+    - title: M.S. in Computational Biology
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2025 - 2027
+
     - title: B.S. in Computer Science |
              B.A. in Mathematics
       institution: Drexel University, Philadelphia, PA
-      year: 2021
+      year: 2016 - 2021
       description:
         - title: Concentrations
           contents:
